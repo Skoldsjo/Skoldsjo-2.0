@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Monument Extended", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset End */
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    height: 20vh;
+    width: 80%;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navbar{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    padding: 0 20px;
+}
+
+.logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media {
+    width: 30%;
+    text-align: right;
+}
+
+.icon {
+    font-size: 35px;
+}
+
+/* Hero-Container */
+
+.main-container {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left-sidebar {
+    width: 30%;
+}
+
+.left-sidebar-top {
+    height: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.left-sidebar-text {
+    transform: rotate(90deg);
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 95px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.left-sidebar-bottom {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.portfolio {
+    cursor: pointer;  
+}
+
+.hero {
+    width: 80%; 
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+
+.image {
+    width: 80%;
+    object-fit: contain;
+}
+
+.slide {
+   display: flex;
+   text-align: center;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.hero-bottom {
+    height: 20%;
+}
+
+h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.img-text {
+    text-decoration: underline;
+}
+
+.img-text:hover {
+    color: green;
+  }
+
+.right-sidebar {
+    width: 30%;
+}
+
+.right-sidebar-top {
+    height: 80%;
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(165, 165, 165);
+}
+
+.right-sidebar-bottom {
+    height: 20%;
+}
+
+.prev {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .prev:hover {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .next {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .next:hover {
+    color: #000;
+    font-weight: bold;
+  }
+
+
+
