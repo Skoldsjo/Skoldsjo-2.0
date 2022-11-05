@@ -239,5 +239,41 @@ h5 {
     font-weight: bold;
   }
 
+/* Responsive */
 
+@media only screen and (max-width: 910px) {
+    .menu > li {
+        padding: 0 10px 0 0;
+    }
+}
 
+@media only screen and (max-width: 660px) {
+    .menu {
+        display: initial;
+    }
+
+    .icon {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 15px;
+        padding-left: 45px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .left-sidebar-bottom {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .right-sidebar-top {
+        font-size: 20px;
+    }
+}
